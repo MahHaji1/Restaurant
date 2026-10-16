@@ -1,0 +1,8 @@
+:root {
+  --Purple: #270257;
+  --Yellow: #feb100;
+  --Black: #000000;
+  --White: #ffffff;
+  --Nav-button: rgba(255, 255, 255, 0.05);
+  --Nav-hover: rgba(255, 255, 255, 0.1);
+}

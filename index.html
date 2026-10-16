@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رستوران</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header" id="header">
+    <nav class="navbar">
+        <img src="./images/menu.svg" alt="" class="burger" id="burger">
+        <a href="#menu" class="nav-item">منو</a>
+        <a href="#about-us" class="nav-item">درباره ما</a>
+        <a href="#comments" class="nav-item">نظرات</a>
+        <a href="#footer" class="nav-item">تماس با ما</a>
+    </nav>
+    <a href="#footer" class="button button-yellow">رزرو میز آنلاین</a>
+</header>
+<main>
+    <section class="menu" id="menu">
+       <h1>رستوران
+        <span class="purple">بنفش</span>
+       </h1>
+       <a href="" class="button button-purple">مشاهده کامل منو</a>
+       <div class="menu-items">
+        <figure class="menu-item">
+            <img src="./images/drink.png" alt="نوشیدنی" class="menu-item-image">
+            <figcaption class="menu-item-text">
+                <h2>نوشیدنی</h2>
+                <p>انواع نوشیدنی های ایرانی و اروپایی مخصوص شما مشکل پسندان</p>
+            </figcaption>
+        </figure>
+        <figure class="menu-item">
+            <img src="./images/pizza.png" alt="پیتزا" class="menu-item-image">
+            <figcaption class="menu-item-text">
+                <h2>پیتزا</h2>
+                <p>انواع پیتزاهای ایرانی و ایتالیایی مخصوص شما مشکل پسندان</p>
+            </figcaption>
+        </figure>
+        <figure class="menu-item">
+            <img src="./images/burger.png" alt="همبرگر" class="menu-item-image">
+            <figcaption class="menu-item-text">
+                <h2>همبرگر</h2>
+                <p>انواع همبرگرهای ایرانی و ایتالیایی مخصوص مشکل پسندان</p>
+            </figcaption>
+        </figure>
+        <figure class="menu-item">
+            <img src="./images/barbecue.png" alt="سوخاری" class="menu-item-image">
+            <figcaption class="menu-item-text">
+                <h2>سوخاری</h2>
+                <p>انواع سوخاری های ایرانی و ایتالیایی مخصوص مشکل پسندان</p>
+            </figcaption>
+        </figure>
+       </div>
+    </section>
+    <section class="comments" id="comments">
+        <h2>نظرات مشتریان رستوران
+            <span class="purple">بنفش</span>
+        </h2>
+        <div class="comment-items" id="comment-items"></div>
+    </section>
+    <section class="about-us" id="about-us">
+        <div class="about-us-text">
+           <h2>درباره رستوران <span class="yellow">بنفش</span></h2>
+           <p>این متن ساختگی است:	اگر مي خواهيد عادتي را در خودتان ايجاد کنيد، کليد اين کار تکرار است، نه کمال گرايي. شما نيازي به تمام جزئيات عادت جديد نداريد. شما فقط بايد آن را تمرين کنيد. شما بايد تکرار کنيد.
+            	مانند ماهيچه هاي بدن که به تمرينات منظم وزن پاسخ مي دهند، مناطق خاص مغز هم اگر از آن ها استفاده شوند، سازگار مي شوند و اگر آن ها را رها کنيد، تحليل مي روند.
+            	در یادگیری صحبت کردن با یک زبان جدید، نواختن یک ساز موسیقی و يا انجام حرکات غيرمعمول، با سختيهاي زيادي مواجه ميشويد، زيرا کانالهايي که هر احساس بايد از آنها عبور کند، ايجاد نشده اند؛ اما به محض اين که تکرار کرديد، اين سختي ها ناپديد مي شوند؛ اين اقدامات آن قدر خودکار انجام مي شوند که مي توانيد آن ها را در حالي که ذهنتان مشغول کار دیگری است انجام دهید.
+            </p>
+        </div>
+        <img src="./images/banafsh.png" alt="" class="about-us-image">
+    </section>
+</main>
+<footer class="footer" id="footer">
+    <section class="contact-us">
+        <h2>اطلاعات تماس</h2>
+        <div class="contact-us-item">
+            <h3 class="contact-us-title">
+                <img src="./images/location.svg" alt="آدرس">
+                آدرس
+            </h3>
+            <address>اصفهان، شهر تمدن و فرهنگ ایران زمین</address>
+        </div>
+        <div class="contact-us-item">
+            <h3 class="contact-us-title">
+                <img src="./images/mail.svg" alt="ایمیل">
+                ایمیل
+            </h3>
+            <a href="mailto:info@irancountry.com">info@irancountry.com</a>
+        </div>
+        <div class="contact-us-item">
+            <h3 class="contact-us-title">
+                <img src="./images/phone.svg" alt="شماره تماس">
+                شماره تماس 
+            </h3>
+            <a href="tel:09121010010">09121010010</a>
+        </div>
+    </section>
+    <form id="form" class="form">
+        <h2>رزرو میز آنلاین</h2>
+        <input type="text" name="name" id="name" placeholder="نام و نام خانوادگی" title="نام و نام خانوادگی" autocomplete="off" class="input">
+        <input type="tel" name="phone" id="phone" placeholder="شماره تماس" title="شماره تلفن" autocomplete="off" class="input">
+        <select title="تعداد نفرات" name="number" class="input"  id="number">
+            <option value="">تعداد نفرات</option>
+            <option value="1">یک</option>
+            <option value="2">دو</option>
+        </select>
+        <select title="ساعت" name="time" class="input" id="time">
+            <option value="">ساعت</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+        </select>
+        <input type="submit" value="ثبت درخواست" class="form-button">
+    </form>
+</footer>
+<div class="popup-hide" id="popup">
+    <div class="popup-message"> 
+        <h2>تخفیف ویژه رستوران  <span class="purple">بنفش</span></h2>
+<a href="#footer" class="button button-yellow">برای دریافت کد تخفیف کلیک کنید</a>
+</div>
+</div>
+<a href="#header" class="float">
+    <img src="./images/arrow.svg" alt="arrow">
+</a>
+<script src="./index.js"></script>
+</body>
+</html>
